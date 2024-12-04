@@ -1,0 +1,113 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF5733;
+    padding: 10px 20px;
+}
+
+header h1 {
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255)55, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    background-color: #74210f;
+    color: white;
+    padding: 10px 0;
+}
+
+/* Estilos de la Página Principal */
+.bienvenida {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.bienvenida h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.bienvenida p {
+    font-size: 18px;
+}
+
+/* Estilos de la Galería */
+.galeria .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.galeria .imagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de Formulario */
+.formulario-contacto form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(218, 50, 50);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-contacto label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.formulario-contacto input, .formulario-contacto textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.formulario-contacto button {
+    padding: 10px 20px;
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.formulario-contacto button:hover {
+    background-color: #c44627;
+}
